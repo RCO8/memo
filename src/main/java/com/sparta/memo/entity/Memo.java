@@ -1,8 +1,8 @@
 package com.sparta.memo.entity;
 
 import com.sparta.memo.dto.MemoRequestDto;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Getter;
 import lombok.Setter;
 
 @Getter
