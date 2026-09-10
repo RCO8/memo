@@ -26,7 +26,7 @@ public class MemoService {
         Memo saveMemo = memoRepository.save(memo);
 
         // Entity -> ResponseDto
-        return new MemoResponseDto(saveMemo);;
+        return new MemoResponseDto(saveMemo);
     }
 
     public List<MemoResponseDto> getMemos() {
